@@ -1,0 +1,43 @@
+.form_container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.reciept_container {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.reciept_container .reciept {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #0a0a0a;
+  border-radius: 0.2rem;
+  padding: 3rem;
+  max-width: 500px;
+  color: #0a0a0a;
+}
+
+.reciept_container .reciept .logo_container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.reciept_container .reciept .info {
+  display: flex;
+}
+
+.reciept_container .reciept .info .header {
+  margin-right: 1.5rem;
+  min-width: 100px;
+}
+
+.reciept_container .reciept .info .header .bold {
+  font-weight: 600;
+}
+
